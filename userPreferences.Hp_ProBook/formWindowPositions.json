@@ -1,19 +1,7 @@
 {
-	"Sources/TableForms/1/Input/form.4DForm": {
+	"Sources/TableForms/2/InputUser/form.4DForm": {
 		"left": 0,
-		"top": 109,
-		"width": 1280,
-		"height": 587
-	},
-	"Sources/TableForms/1/Output/form.4DForm": {
-		"left": 0,
-		"top": 109,
-		"width": 1280,
-		"height": 587
-	},
-	"Sources/TableForms/2/Output/form.4DForm": {
-		"left": 0,
-		"top": 109,
+		"top": 78,
 		"width": 1280,
 		"height": 587
 	}

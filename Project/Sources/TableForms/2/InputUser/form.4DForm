@@ -7,8 +7,8 @@
 	"windowSizingY": "variable",
 	"windowMinWidth": 0,
 	"windowMinHeight": 0,
-	"windowMaxWidth": 32767,
-	"windowMaxHeight": 32767,
+	"windowMaxWidth": 700,
+	"windowMaxHeight": 700,
 	"rightMargin": 20,
 	"bottomMargin": 20,
 	"events": [
@@ -37,11 +37,19 @@
 		},
 		{
 			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 6,
+					"left": 25,
+					"width": 380,
+					"height": 33,
+					"fill": "#b1c4dd"
+				},
 				"label_ID": {
 					"type": "text",
 					"text": "ID:",
-					"top": 10,
-					"left": 10,
+					"top": 54,
+					"left": 12,
 					"width": 100,
 					"height": 17,
 					"fontWeight": "normal",
@@ -52,8 +60,8 @@
 				"field_ID": {
 					"type": "input",
 					"dataSource": "[User:2]ID:1",
-					"top": 10,
-					"left": 120,
+					"top": 54,
+					"left": 122,
 					"width": 250,
 					"height": 17,
 					"dataSourceTypeHint": "integer",
@@ -67,8 +75,8 @@
 				"label_firstName": {
 					"type": "text",
 					"text": "First name:\r",
-					"top": 47,
-					"left": 10,
+					"top": 91,
+					"left": 12,
 					"width": 100,
 					"height": 17,
 					"fontFamily": "Fixedsys",
@@ -78,8 +86,8 @@
 				"field_firstName": {
 					"type": "input",
 					"dataSource": "[User:2]firstName:2",
-					"top": 47,
-					"left": 120,
+					"top": 91,
+					"left": 122,
 					"width": 250,
 					"height": 17,
 					"events": [
@@ -92,8 +100,8 @@
 				"label_lastName": {
 					"type": "text",
 					"text": "Last name:",
-					"top": 84,
-					"left": 10,
+					"top": 128,
+					"left": 12,
 					"width": 100,
 					"height": 17,
 					"fontFamily": "Fixedsys",
@@ -103,8 +111,8 @@
 				"field_lastName": {
 					"type": "input",
 					"dataSource": "[User:2]lastName:3",
-					"top": 84,
-					"left": 120,
+					"top": 128,
+					"left": 122,
 					"width": 250,
 					"height": 17,
 					"events": [
@@ -117,8 +125,8 @@
 				"label_role": {
 					"type": "text",
 					"text": "Role:",
-					"top": 121,
-					"left": 10,
+					"top": 165,
+					"left": 12,
 					"width": 100,
 					"height": 17,
 					"fontFamily": "Fixedsys",
@@ -128,8 +136,8 @@
 				"label_birthDate": {
 					"type": "text",
 					"text": "Birthdate",
-					"top": 158,
-					"left": 10,
+					"top": 202,
+					"left": 12,
 					"width": 100,
 					"height": 17,
 					"fontFamily": "Fixedsys",
@@ -139,8 +147,8 @@
 				"field_birthDate": {
 					"type": "input",
 					"dataSource": "[User:2]birthDate:5",
-					"top": 158,
-					"left": 120,
+					"top": 202,
+					"left": 122,
 					"width": 250,
 					"height": 17,
 					"dataSourceTypeHint": "date",
@@ -155,8 +163,8 @@
 				"label_address": {
 					"type": "text",
 					"text": "Address",
-					"top": 195,
-					"left": 10,
+					"top": 239,
+					"left": 12,
 					"width": 100,
 					"height": 17,
 					"fontFamily": "Fixedsys",
@@ -166,11 +174,11 @@
 				"field_address": {
 					"type": "input",
 					"dataSource": "[User:2]address:6",
-					"top": 195,
-					"left": 120,
+					"top": 239,
+					"left": 122,
 					"width": 250,
 					"height": 17,
-					"dataSourceTypeHint": "object",
+					"dataSourceTypeHint": "text",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -181,8 +189,8 @@
 				"label_ID_Task": {
 					"type": "text",
 					"text": "ID_Task:",
-					"top": 232,
-					"left": 10,
+					"top": 276,
+					"left": 12,
 					"width": 100,
 					"height": 17,
 					"fontFamily": "Fixedsys",
@@ -192,8 +200,8 @@
 				"field_ID_Task": {
 					"type": "input",
 					"dataSource": "[User:2]ID_Task:7",
-					"top": 232,
-					"left": 120,
+					"top": 276,
+					"left": 122,
 					"width": 250,
 					"height": 17,
 					"dataSourceTypeHint": "number",
@@ -206,11 +214,11 @@
 				},
 				"label_image": {
 					"type": "text",
-					"text": "Image:",
-					"top": 269,
-					"left": 10,
+					"text": "Add a profile picture:",
+					"top": 138,
+					"left": 428,
 					"width": 100,
-					"height": 17,
+					"height": 32,
 					"fontFamily": "Fixedsys",
 					"fontSize": 14,
 					"stroke": "#191970"
@@ -219,10 +227,10 @@
 					"type": "input",
 					"dataSource": "[User:2]image:8",
 					"dataSourceTypeHint": "picture",
-					"top": 269,
-					"left": 120,
-					"width": 250,
-					"height": 192,
+					"top": 82,
+					"left": 537,
+					"width": 141,
+					"height": 128,
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -232,8 +240,8 @@
 				},
 				"addButton": {
 					"type": "pictureButton",
-					"left": 264,
-					"top": 519,
+					"left": 25,
+					"top": 355,
 					"width": 42,
 					"height": 40,
 					"events": [
@@ -249,12 +257,13 @@
 					"action": "accept",
 					"columnCount": 1,
 					"borderStyle": "solid",
-					"visibility": "visible"
+					"visibility": "visible",
+					"class": "addButton"
 				},
 				"role_pup": {
 					"type": "dropdown",
-					"left": 120,
-					"top": 118,
+					"left": 122,
+					"top": 162,
 					"width": 250,
 					"height": 20,
 					"events": [
@@ -268,12 +277,12 @@
 					"choiceList": {
 						"$ref": "/SOURCES/lists.json#/roles"
 					},
-					"dataSourceTypeHint": "object"
+					"dataSourceTypeHint": "arrayText"
 				},
 				"PopupDate": {
 					"type": "subform",
-					"top": 159,
-					"left": 384,
+					"top": 203,
+					"left": 386,
 					"width": 19,
 					"height": 16,
 					"dataSource": "vDate",
@@ -293,8 +302,8 @@
 				},
 				"cancelButton": {
 					"type": "pictureButton",
-					"left": 334,
-					"top": 519,
+					"left": 97,
+					"top": 355,
 					"width": 42,
 					"height": 40,
 					"events": [
@@ -309,49 +318,45 @@
 				"addButton1": {
 					"type": "button",
 					"text": "Add",
-					"top": 481,
-					"left": 223,
-					"width": 78,
-					"height": 24,
+					"top": 355,
+					"left": 296,
+					"width": 99,
+					"height": 29,
 					"events": [
 						"onClick"
 					],
-					"action": "accept"
+					"action": "accept",
+					"method": "ObjectMethods/addButton1.4dm"
 				},
 				"cancelButton1": {
 					"type": "button",
 					"text": "Cancel",
-					"top": 481,
-					"left": 311,
-					"width": 78,
-					"height": 24,
+					"top": 355,
+					"left": 434,
+					"width": 94,
+					"height": 29,
 					"events": [
 						"onClick"
 					],
-					"action": "cancel"
+					"action": "cancel",
+					"method": "ObjectMethods/cancelButton1.4dm"
 				},
-				"Bouton": {
-					"type": "button",
-					"text": "Button",
-					"top": 519,
-					"left": 42,
-					"width": 85,
-					"height": 40,
-					"events": [
-						"onLoad",
-						"onClick"
-					],
-					"style": "custom",
-					"icon": "Images/Buttons/AddIcon.png",
-					"iconFrames": 4,
-					"customBorderX": 1,
-					"customBorderY": 1,
-					"customBackgroundPicture": "Images/Buttons/AddIcon.png"
+				"Texte": {
+					"type": "text",
+					"text": "Create your account now!\r",
+					"top": 15,
+					"left": 33,
+					"width": 276,
+					"height": 15,
+					"fill": "#b1c4dd",
+					"fontFamily": "Fixedsys",
+					"fontSize": 14,
+					"fontWeight": "bold"
 				}
 			}
 		}
 	],
-	"geometryStamp": 53,
+	"geometryStamp": 97,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

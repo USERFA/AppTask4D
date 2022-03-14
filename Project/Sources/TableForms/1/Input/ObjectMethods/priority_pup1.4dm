@@ -5,6 +5,7 @@ Case of
 		
 	: (FORM Event:C1606.code=On Data Change:K2:15)
 		$position:=at_priority
-		Form:C1466.priority_pup:=at_priority{$position}
-		ALERT:C41(Form:C1466.priority_pup)
+		//Form.priority_pup
+		[Task:1]priority:3:=at_priority{$position}
+		//ALERT(Form.priority_pup)
 End case 

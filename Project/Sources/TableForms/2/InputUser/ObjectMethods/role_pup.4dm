@@ -5,6 +5,6 @@ Case of
 		
 	: (FORM Event:C1606.code=On Data Change:K2:15)
 		$position:=at_role
-		Form:C1466.role:=at_role{$position}
+		[User:2]role:4:=at_role{$position}
 		
 End case 

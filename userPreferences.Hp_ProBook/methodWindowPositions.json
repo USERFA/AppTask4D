@@ -18,8 +18,8 @@
 		"height": 587
 	},
 	"Sources/TableForms/1/Input/ObjectMethods/priority_pup.4dm": {
-		"left": 0,
-		"top": 109,
+		"left": -60,
+		"top": 110,
 		"width": 1280,
 		"height": 587
 	},
@@ -73,7 +73,7 @@
 	},
 	"Sources/Forms/Main_interface/ObjectMethods/add_task.4dm": {
 		"left": 0,
-		"top": 109,
+		"top": 89,
 		"width": 1280,
 		"height": 587
 	},
@@ -84,6 +84,48 @@
 		"height": 587
 	},
 	"Sources/Methods/tasks_hierarchy.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/TableForms/1/Input/ObjectMethods/priority_pup1.4dm": {
+		"left": 137,
+		"top": 113,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/Methods/_______v.4dm": {
+		"left": 30,
+		"top": 109,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/TableForms/2/InputUser/ObjectMethods/role_pup.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/TableForms/2/InputUser/ObjectMethods/addButton1.4dm": {
+		"left": 0,
+		"top": 58,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/TableForms/2/InputUser/ObjectMethods/cancelButton1.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/TableForms/1/Input/ObjectMethods/addButton1.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/TableForms/1/Input/ObjectMethods/status_pup1.4dm": {
 		"left": 0,
 		"top": 78,
 		"width": 1280,

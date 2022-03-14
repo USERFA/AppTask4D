@@ -11,20 +11,21 @@
 	"windowMaxHeight": 32767,
 	"events": [
 		"onLoad",
-		"onPageChange",
 		"onValidate",
 		"onClick",
-		"onDoubleClick",
 		"onOutsideCall",
-		"onBeginDragOver",
-		"onDragOver",
+		"onDoubleClick",
 		"onDrop",
-		"onAfterKeystroke",
 		"onMenuSelect",
 		"onPluginArea",
-		"onAfterEdit",
+		"onDataChange",
+		"onDragOver",
 		"onTimer",
-		"onBoundVariableChange"
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
 	],
 	"windowTitle": "Hello World",
 	"destination": "detailScreen",
@@ -34,6 +35,15 @@
 		},
 		{
 			"objects": {
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 2,
+					"left": 1,
+					"width": 423,
+					"height": 296,
+					"fill": "#b1c4dd",
+					"stroke": "transparent"
+				},
 				"Texte": {
 					"type": "text",
 					"text": "Welcome!",
@@ -47,25 +57,38 @@
 					"fontWeight": "bold",
 					"textDecoration": "underline"
 				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 137,
+					"left": 51,
+					"width": 329,
+					"height": 53,
+					"stroke": "#c0c0c0",
+					"fill": "#c0c0c0"
+				},
 				"add_task": {
 					"type": "button",
 					"text": "To start your productive day, add a new Task!",
-					"top": 119,
-					"left": 56,
-					"width": 304,
-					"height": 92,
+					"top": 142,
+					"left": 49,
+					"width": 331,
+					"height": 42,
 					"events": [
 						"onClick"
 					],
 					"style": "custom",
-					"fontWeight": "normal",
+					"fontWeight": "bold",
 					"method": "ObjectMethods/add_task.4dm",
-					"action": "nextPage"
+					"action": "",
+					"iconFrames": 4,
+					"fontSize": 14,
+					"fontFamily": "Fixedsys",
+					"stroke": "#4b0082"
 				}
 			}
 		}
 	],
-	"geometryStamp": 12,
+	"geometryStamp": 35,
 	"colorScheme": "dark",
 	"width": 426,
 	"height": 300,

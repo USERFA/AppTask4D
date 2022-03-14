@@ -1,5 +1,13 @@
-Case of 
-	: (FORM Event:C1606.code=On Clicked:K2:4)
-		DIALOG:C40([Task]Input)
-End case 
-// use subforms and pointersa
+//Case of 
+//: (FORM Event.code=On Clicked)
+//$form:=New object()
+//$refWindow:=Open form window("[Task]input"; Sheet form window)
+//DIALOG("[Task]input"; $form)
+//CLOSE WINDOW($refWindow)
+////DIALOG([Task]Input)
+//End case 
+//// use subforms and pointers
+
+
+
+//must create the task input form as a project form

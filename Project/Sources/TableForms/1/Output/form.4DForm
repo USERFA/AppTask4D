@@ -12,7 +12,7 @@
 	"rightMargin": 20,
 	"bottomMargin": 20,
 	"markerHeader": 35,
-	"markerBody": 52,
+	"markerBody": 53,
 	"events": [
 		"onLoad",
 		"onDataChange"
@@ -27,10 +27,10 @@
 			"objects": {
 				"lb_tasks": {
 					"type": "listbox",
-					"left": 16,
-					"top": 9,
-					"width": 867,
-					"height": 159,
+					"left": 28,
+					"top": 10,
+					"width": 903,
+					"height": 187,
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -46,11 +46,17 @@
 					"showHeaders": true,
 					"listboxType": "currentSelection",
 					"table": 1,
-					"fill": "#fffacd",
+					"fill": "#b1c4dd",
 					"fontStyle": "normal",
 					"textDecoration": "none",
 					"fontWeight": "bold",
 					"stroke": "#191970",
+					"sizingX": "grow",
+					"sizingY": "fixed",
+					"resizingMode": "legacy",
+					"visibility": "visible",
+					"scrollbarHorizontal": "automatic",
+					"scrollbarVertical": "automatic",
 					"columns": [
 						{
 							"header": {
@@ -92,8 +98,7 @@
 							"footer": {
 								"name": "Pied3"
 							},
-							"dataSource": "Form:C1466.priority_pup",
-							"dataSourceTypeHint": "text",
+							"dataSource": "[Task:1]priority:3",
 							"events": [
 								"onLoad",
 								"onDataChange"
@@ -123,8 +128,7 @@
 							"footer": {
 								"name": "Pied5"
 							},
-							"dataSource": "Form:C1466.status",
-							"dataSourceTypeHint": "text",
+							"dataSource": "[Task:1]status:6",
 							"events": [
 								"onLoad",
 								"onDataChange"
@@ -151,7 +155,7 @@
 			}
 		}
 	],
-	"geometryStamp": 57,
+	"geometryStamp": 122,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
@@ -159,6 +163,6 @@
 			"View 1": {}
 		}
 	},
-	"markerFooter": 150,
-	"markerBreak": 150
+	"markerFooter": 181,
+	"markerBreak": 181
 }

@@ -39,8 +39,8 @@
 			"objects": {
 				"lb_users": {
 					"type": "listbox",
-					"left": 26,
-					"top": 20,
+					"left": 23,
+					"top": 15,
 					"width": 788,
 					"height": 142,
 					"events": [
@@ -55,7 +55,12 @@
 					"dataSource": "lb_users",
 					"stroke": "#191970",
 					"fontWeight": "bold",
-					"fill": "#fffacd",
+					"fill": "#b1c4dd",
+					"sizingX": "grow",
+					"sizingY": "fixed",
+					"resizingMode": "legacy",
+					"scrollbarHorizontal": "automatic",
+					"scrollbarVertical": "automatic",
 					"columns": [
 						{
 							"header": {
@@ -111,7 +116,7 @@
 							"footer": {
 								"name": "Pied4"
 							},
-							"dataSource": "Form:C1466.role",
+							"dataSource": "[User:2]role:4",
 							"events": [
 								"onLoad",
 								"onDataChange"
@@ -152,7 +157,7 @@
 			}
 		}
 	],
-	"geometryStamp": 46,
+	"geometryStamp": 52,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
