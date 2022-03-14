@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="OrgaTask" uuid="27C6F02CE9493142AEE2CB346C978575" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Task" uuid="629189B3905EF54CBF2D050516FDEC62" id="1">
+		<field name="ID" uuid="03538643009F7F409F87779F11C29264" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="label" uuid="3675617E9EDDA44E834A8573649C968C" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="priority" uuid="1635ADA26BA89A4C817EE2CC7E0FF65B" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="startingDate" uuid="B426532BFF642941A75DB78AE5DD2689" type="8" never_null="true" id="4"/>
+		<field name="deadline" uuid="4EEEAEAA6323E942B2B6B825FBAC1778" type="8" never_null="true" id="5"/>
+		<field name="status" uuid="22D66F5DCF7E964EB5377E6052398EC9" type="10" limiting_length="255" never_null="true" id="6"/>
+		<field name="details" uuid="7A5E9158D93DFF4DB89F8E977259C275" type="10" never_null="true" id="7"/>
+		<field name="ID_maintask" uuid="E6F3768B9E6E4A4FAE6C929846EE3A51" type="4" never_null="true" id="8"/>
+		<primary_key field_name="ID" field_uuid="03538643009F7F409F87779F11C29264"/>
+		<table_extra input_form="Input" output_form="Output">
+			<editor_table_info displayable_fields_count="9">
+				<color red="252" green="191" blue="73" alpha="255"/>
+				<coordinates left="110" top="134" width="229" height="235.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="User" uuid="49417F80F55FAD459F102EDB2644E733" id="2">
+		<field name="ID" uuid="FB75289448751B45B84629187E6F00F0" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="firstName" uuid="F47112B789CF8B4EBCCE8E7F5FFC52C4" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="lastName" uuid="5315EB4B2696624F9F4ED90D2D3AA049" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="role" uuid="2FFE6F2B2E0F3A49BF55FEE1F96409B1" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="birthDate" uuid="F0385D5D11AF2040AB7DAF356E613BCA" type="8" never_null="true" id="5"/>
+		<field name="address" uuid="07F6A07D2391FD45A975EAA206584D62" type="21" blob_switch_size="2147483647" never_null="true" id="6"/>
+		<field name="ID_Task" uuid="52CC18E03D959C4CA86DF00829F3F4BA" type="4" never_null="true" id="7"/>
+		<field name="image" uuid="D93F91085E8DD14CB67AD8CA3A80BE6E" type="12" never_null="true" id="8"/>
+		<primary_key field_name="ID" field_uuid="FB75289448751B45B84629187E6F00F0"/>
+		<table_extra input_form="Input" output_form="Output">
+			<editor_table_info displayable_fields_count="8">
+				<color red="168" green="206" blue="226" alpha="255"/>
+				<coordinates left="495" top="133" width="205" height="210.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<relation uuid="288638508D4FEC4D8FD914CB503A0A4D" name_Nto1="tasks" name_1toN="owner" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="52CC18E03D959C4CA86DF00829F3F4BA" name="ID_Task">
+				<table_ref uuid="49417F80F55FAD459F102EDB2644E733" name="User"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="03538643009F7F409F87779F11C29264" name="ID">
+				<table_ref uuid="629189B3905EF54CBF2D050516FDEC62" name="Task"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="240" green="240" blue="240" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<relation uuid="F8DB270118F53A45B6D9FF92EED3CC2E" name_Nto1="mainTask" name_1toN="subTasks" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="E6F3768B9E6E4A4FAE6C929846EE3A51" name="ID_maintask">
+				<table_ref uuid="629189B3905EF54CBF2D050516FDEC62" name="Task"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="03538643009F7F409F87779F11C29264" name="ID">
+				<table_ref uuid="629189B3905EF54CBF2D050516FDEC62" name="Task"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="240" green="240" blue="240" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<index kind="regular" unique_keys="true" uuid="5DED2D9C54124D459EE21DB12BBC2D0E" type="7">
+		<field_ref uuid="FB75289448751B45B84629187E6F00F0" name="ID">
+			<table_ref uuid="49417F80F55FAD459F102EDB2644E733" name="User"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="9057B47DA055AC4DBBB0DF04C376CE8E" type="7">
+		<field_ref uuid="03538643009F7F409F87779F11C29264" name="ID">
+			<table_ref uuid="629189B3905EF54CBF2D050516FDEC62" name="Task"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:68.1.0" __keywordBuildingHash="icu:68.1.0">
+		<journal_file journal_file_enabled="true"/>
+	</base_extra>
+</base>

@@ -1,0 +1,164 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 35,
+	"markerBody": 52,
+	"events": [
+		"onLoad",
+		"onDataChange"
+	],
+	"windowTitle": "window title",
+	"destination": "listScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"lb_tasks": {
+					"type": "listbox",
+					"left": 16,
+					"top": 9,
+					"width": 867,
+					"height": 159,
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"dataSource": "lb_tasks",
+					"horizontalLineStroke": "automatic",
+					"verticalLineStroke": "automatic",
+					"showFooters": false,
+					"showHeaders": true,
+					"listboxType": "currentSelection",
+					"table": 1,
+					"fill": "#fffacd",
+					"fontStyle": "normal",
+					"textDecoration": "none",
+					"fontWeight": "bold",
+					"stroke": "#191970",
+					"columns": [
+						{
+							"header": {
+								"text": "ID",
+								"name": "ent_id",
+								"stroke": "#000000"
+							},
+							"name": "col_ID",
+							"footer": {
+								"name": "Pied1"
+							},
+							"dataSource": "[Task:1]ID:1",
+							"events": [
+								"onLoad",
+								"onDataChange"
+							]
+						},
+						{
+							"header": {
+								"name": "ent_label",
+								"text": "Label"
+							},
+							"name": "col_label",
+							"footer": {
+								"name": "Pied2"
+							},
+							"dataSource": "[Task:1]label:2",
+							"events": [
+								"onLoad",
+								"onDataChange"
+							]
+						},
+						{
+							"header": {
+								"name": "ent_priority",
+								"text": "Priority"
+							},
+							"name": "col_priority",
+							"footer": {
+								"name": "Pied3"
+							},
+							"dataSource": "Form:C1466.priority_pup",
+							"dataSourceTypeHint": "text",
+							"events": [
+								"onLoad",
+								"onDataChange"
+							]
+						},
+						{
+							"header": {
+								"name": "ent_deadline",
+								"text": "Deadline"
+							},
+							"name": "col_deadline",
+							"footer": {
+								"name": "Pied4"
+							},
+							"dataSource": "[Task:1]deadline:5",
+							"events": [
+								"onLoad",
+								"onDataChange"
+							]
+						},
+						{
+							"header": {
+								"name": "ent_status",
+								"text": "Status"
+							},
+							"name": "col_status",
+							"footer": {
+								"name": "Pied5"
+							},
+							"dataSource": "Form:C1466.status",
+							"dataSourceTypeHint": "text",
+							"events": [
+								"onLoad",
+								"onDataChange"
+							]
+						},
+						{
+							"header": {
+								"name": "ent_details",
+								"text": "Details"
+							},
+							"name": "col_details",
+							"footer": {
+								"name": "Pied6"
+							},
+							"dataSource": "[Task:1]details:7",
+							"width": 211,
+							"events": [
+								"onLoad",
+								"onDataChange"
+							]
+						}
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 57,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"markerFooter": 150,
+	"markerBreak": 150
+}

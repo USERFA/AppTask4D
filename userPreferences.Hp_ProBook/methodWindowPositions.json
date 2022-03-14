@@ -1,0 +1,92 @@
+{
+	"Sources/TableForms/1/Input/method.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 704,
+		"height": 587
+	},
+	"Sources/TableForms/2/Input/ObjectMethods/role_pup.4dm": {
+		"left": 0,
+		"top": 89,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/TableForms/2/Input/ObjectMethods/PopupDate.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/TableForms/1/Input/ObjectMethods/priority_pup.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/TableForms/1/Input/ObjectMethods/col_status.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/TableForms/1/Input/ObjectMethods/PopupDate.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/TableForms/1/Input/ObjectMethods/PopupDate1.4dm": {
+		"left": 0,
+		"top": 58,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/TableForms/2/Input/ObjectMethods/field_birthDate.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/TableForms/1/Input/ObjectMethods/field_startingDate.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/TableForms/1/Input/ObjectMethods/field_deadline.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/TableForms/1/Input/ObjectMethods/status_pup.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/Forms/Main_interface/method.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/Forms/Main_interface/ObjectMethods/add_task.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/TableForms/1/Input/ObjectMethods/lh_subtasks.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 704,
+		"height": 587
+	},
+	"Sources/Methods/tasks_hierarchy.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1280,
+		"height": 587
+	}
+}

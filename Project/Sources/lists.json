@@ -1,0 +1,72 @@
+{
+	"roles": {
+		"editable": true,
+		"items": [
+			{
+				"text": "Manager",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Intern",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Supervisor",
+				"ref": 3,
+				"editable": true
+			},
+			{
+				"text": "CEO",
+				"ref": 4,
+				"editable": true
+			},
+			{
+				"text": "HR",
+				"ref": 5,
+				"editable": true
+			}
+		]
+	},
+	"stats": {
+		"editable": true,
+		"items": [
+			{
+				"text": "Done",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Currently working on",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Not done yet",
+				"ref": 3,
+				"editable": true
+			}
+		]
+	},
+	"prio": {
+		"editable": true,
+		"items": [
+			{
+				"text": "High",
+				"ref": 1,
+				"editable": true
+			},
+			{
+				"text": "Medium",
+				"ref": 2,
+				"editable": true
+			},
+			{
+				"text": "Low",
+				"ref": 3,
+				"editable": true
+			}
+		]
+	}
+}

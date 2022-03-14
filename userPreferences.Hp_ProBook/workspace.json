@@ -1,0 +1,43 @@
+{
+	"editors": [
+		{
+			"type": "method",
+			"id": 2147483628,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "Main_interface",
+				"objectName": "add_task",
+				"methodPath": "/SOURCES/Forms/Main_interface/ObjectMethods/add_task.4dm"
+			}
+		},
+		{
+			"type": "form",
+			"id": 219,
+			"formName": "Main_interface"
+		},
+		{
+			"type": "explorer"
+		},
+		{
+			"type": "form",
+			"id": 221,
+			"table": 1,
+			"formName": "Output"
+		},
+		{
+			"type": "form",
+			"id": 220,
+			"table": 1,
+			"formName": "Input"
+		},
+		{
+			"type": "form",
+			"id": 222,
+			"table": 2,
+			"formName": "Input"
+		},
+		{
+			"type": "structure"
+		}
+	]
+}
