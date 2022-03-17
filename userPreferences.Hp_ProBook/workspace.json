@@ -1,14 +1,24 @@
 {
 	"editors": [
 		{
+			"type": "method",
+			"id": 2147483643,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "passing_args_to_form"
+			}
+		},
+		{
 			"type": "explorer"
 		},
 		{
-			"type": "structure"
+			"type": "form",
+			"id": 370,
+			"formName": "add_user"
 		},
 		{
 			"type": "form",
-			"id": 824,
+			"id": 220,
 			"table": 1,
 			"formName": "Input"
 		}

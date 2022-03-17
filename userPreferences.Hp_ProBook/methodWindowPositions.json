@@ -96,7 +96,7 @@
 		"height": 587
 	},
 	"Sources/Methods/_______v.4dm": {
-		"left": 30,
+		"left": 0,
 		"top": 109,
 		"width": 1280,
 		"height": 587
@@ -128,6 +128,18 @@
 	"Sources/TableForms/1/Input/ObjectMethods/status_pup1.4dm": {
 		"left": 0,
 		"top": 78,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/Methods/testing_orda.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 587,
+		"height": 568
+	},
+	"Sources/Methods/passing_args_to_form.4dm": {
+		"left": 0,
+		"top": 109,
 		"width": 1280,
 		"height": 587
 	}

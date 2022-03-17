@@ -1,5 +1,9 @@
 {
 	"forms": {
+		"add_user": {
+			"timeStamp": "2022-03-17T10:18:20.822Z",
+			"destination": "detailScreen"
+		},
 		"Main_interface": {
 			"timeStamp": "2022-03-14T12:46:41.763Z",
 			"destination": "detailScreen"

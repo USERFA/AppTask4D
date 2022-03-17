@@ -4,5 +4,17 @@
 		"top": 78,
 		"width": 1280,
 		"height": 587
+	},
+	"Sources/TableForms/2/Output/form.4DForm": {
+		"left": 0,
+		"top": 78,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/TableForms/1/Input/form.4DForm": {
+		"left": 0,
+		"top": 58,
+		"width": 1280,
+		"height": 587
 	}
 }
