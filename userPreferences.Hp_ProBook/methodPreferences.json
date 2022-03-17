@@ -214,5 +214,113 @@
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2022-03-17T10:33:58.232Z"
+	},
+	"Sources/Methods/dc_tutorial.4dm": {
+		"startSelection": 11,
+		"endSelection": 11,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-03-17T12:02:32.506Z"
+	},
+	"Sources/Methods/Task_getnbUsers.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-03-17T10:55:54.847Z"
+	},
+	"Sources/Classes/TaskEntity.4dm": {
+		"startSelection": 10,
+		"endSelection": 10,
+		"firstSelectedLine": 12,
+		"lastSelectedLine": 12,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-03-17T14:10:19.689Z"
+	},
+	"Sources/Classes/CompanySelection.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-03-17T11:14:06.186Z"
+	},
+	"Sources/Classes/Task.4dm": {
+		"startSelection": 52,
+		"endSelection": 52,
+		"firstSelectedLine": 25,
+		"lastSelectedLine": 25,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-03-17T12:31:18.067Z"
+	},
+	"Sources/Methods/add_new_task.4dm": {
+		"startSelection": 48,
+		"endSelection": 48,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-03-17T12:31:53.794Z"
+	},
+	"Sources/Methods/add_task_usimg_dcs_relared_to_f.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-03-17T12:48:58.919Z"
+	},
+	"Sources/Classes/DataStore.4dm": {
+		"startSelection": 15,
+		"endSelection": 15,
+		"firstSelectedLine": 27,
+		"lastSelectedLine": 27,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-03-17T13:37:33.415Z"
+	},
+	"Sources/Methods/DSfunctions.4dm": {
+		"startSelection": 4,
+		"endSelection": 4,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-03-17T13:38:46.974Z"
+	},
+	"Sources/Classes/User.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-03-17T14:16:41.249Z"
+	},
+	"Sources/Classes/UserEntity.4dm": {
+		"startSelection": 27,
+		"endSelection": 27,
+		"firstSelectedLine": 17,
+		"lastSelectedLine": 17,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-03-17T14:16:55.273Z"
+	},
+	"Sources/Methods/fill_active_field_user.4dm": {
+		"startSelection": 13,
+		"endSelection": 13,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-03-17T14:03:13.207Z"
 	}
 }

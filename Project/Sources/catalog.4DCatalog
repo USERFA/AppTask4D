@@ -11,11 +11,12 @@
 		<field name="status" uuid="22D66F5DCF7E964EB5377E6052398EC9" type="10" limiting_length="255" never_null="true" id="6"/>
 		<field name="details" uuid="7A5E9158D93DFF4DB89F8E977259C275" type="10" never_null="true" id="7"/>
 		<field name="ID_maintask" uuid="E6F3768B9E6E4A4FAE6C929846EE3A51" type="4" never_null="true" id="8"/>
+		<field name="UUID" uuid="39E686EBFD8B3A41A90F03002749CCF4" type="10" limiting_length="255" never_null="true" id="9"/>
 		<primary_key field_name="ID" field_uuid="03538643009F7F409F87779F11C29264"/>
 		<table_extra input_form="Input" output_form="Output">
-			<editor_table_info displayable_fields_count="9">
+			<editor_table_info displayable_fields_count="10">
 				<color red="252" green="191" blue="73" alpha="255"/>
-				<coordinates left="110" top="134" width="229" height="235.33203125"/>
+				<coordinates left="113" top="115" width="232" height="271.33203125"/>
 			</editor_table_info>
 		</table_extra>
 	</table>
@@ -28,11 +29,12 @@
 		<field name="address" uuid="07F6A07D2391FD45A975EAA206584D62" type="10" never_null="true" id="6"/>
 		<field name="ID_Task" uuid="52CC18E03D959C4CA86DF00829F3F4BA" type="4" never_null="true" id="7"/>
 		<field name="image" uuid="D93F91085E8DD14CB67AD8CA3A80BE6E" type="12" never_null="true" id="8"/>
+		<field name="active" uuid="EA1CE7786F944648B6A7E9E71894D585" type="1" never_null="true" id="9"/>
 		<primary_key field_name="ID" field_uuid="FB75289448751B45B84629187E6F00F0"/>
 		<table_extra input_form="InputUser" output_form="Output">
-			<editor_table_info displayable_fields_count="8">
+			<editor_table_info displayable_fields_count="10">
 				<color red="168" green="206" blue="226" alpha="255"/>
-				<coordinates left="495" top="133" width="205" height="210.33203125"/>
+				<coordinates left="495" top="133" width="266" height="261.33203125"/>
 			</editor_table_info>
 		</table_extra>
 	</table>

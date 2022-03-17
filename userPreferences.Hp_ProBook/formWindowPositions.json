@@ -1,20 +1,20 @@
 {
-	"Sources/TableForms/2/InputUser/form.4DForm": {
-		"left": 0,
-		"top": 78,
-		"width": 1280,
-		"height": 587
-	},
-	"Sources/TableForms/2/Output/form.4DForm": {
-		"left": 0,
-		"top": 78,
-		"width": 1280,
-		"height": 587
-	},
 	"Sources/TableForms/1/Input/form.4DForm": {
 		"left": 0,
-		"top": 58,
+		"top": 110,
 		"width": 1280,
 		"height": 587
+	},
+	"Sources/Forms/add_user/form.4DForm": {
+		"left": 0,
+		"top": 89,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/Forms/add_task_usimg_dcs/form.4DForm": {
+		"left": 0,
+		"top": 78,
+		"width": 780,
+		"height": 559
 	}
 }

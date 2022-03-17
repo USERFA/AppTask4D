@@ -142,5 +142,77 @@
 		"top": 109,
 		"width": 1280,
 		"height": 587
+	},
+	"Sources/Methods/dc_tutorial.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/Methods/Task_getnbUsers.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/Classes/TaskEntity.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/Classes/CompanySelection.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/Classes/Task.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/Methods/add_new_task.4dm": {
+		"left": 0,
+		"top": 109,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/Methods/add_task_usimg_dcs_relared_to_f.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/Classes/DataStore.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/Methods/DSfunctions.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/Classes/User.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/Classes/UserEntity.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1280,
+		"height": 587
+	},
+	"Sources/Methods/fill_active_field_user.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1280,
+		"height": 587
 	}
 }

@@ -5,5 +5,14 @@
 			"type": 1,
 			"methodName": "_______v"
 		}
+	},
+	{
+		"line": 1,
+		"method": {
+			"type": 10,
+			"className": "DataStore",
+			"functionName": "countDataClasses",
+			"methodPath": "/SOURCES/Classes/DataStore.4dm"
+		}
 	}
 ]
