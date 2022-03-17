@@ -15,7 +15,3 @@ If (ok=1)
 	$context.entity.save()  //save the entity to the dc
 End if 
 
-
-//$entity.firstName:="Ali"
-//$entity.lastName:="Rachid"
-//$entity.role:="Intern"
