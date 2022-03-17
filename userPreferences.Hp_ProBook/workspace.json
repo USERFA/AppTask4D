@@ -1,3 +1,12 @@
 {
-	"editors": []
+	"editors": [
+		{
+			"type": "method",
+			"id": 2147483519,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "var_simple_ex"
+			}
+		}
+	]
 }

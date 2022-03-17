@@ -14,5 +14,12 @@
 			"functionName": "countDataClasses",
 			"methodPath": "/SOURCES/Classes/DataStore.4dm"
 		}
+	},
+	{
+		"line": 6,
+		"method": {
+			"type": 1,
+			"methodName": "var_simple_ex"
+		}
 	}
 ]
